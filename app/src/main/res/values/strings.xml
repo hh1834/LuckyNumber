@@ -3,4 +3,5 @@
     <string name="welcome_string">Welcome to Lucky Number App</string>
     <string name="hint_name">Enter your name here</string>
     <string name="sign_up">Sign Up</string>
+    <string name="your_lucky_number_is">Your Lucky Number is:</string>
 </resources>
