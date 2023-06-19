@@ -48,8 +48,8 @@ public class LuckyActivity extends AppCompatActivity {
         Intent i = new Intent(Intent.ACTION_SEND);
         i.setType("text/plain");
 
-        i.putExtra(Intent.EXTRA_SUBJECT, userName);
-        i.putExtra(Intent.EXTRA_TEXT, randomNumber);
+        i.putExtra(Intent.EXTRA_SUBJECT, userName + " got lucky today");
+        i.putExtra(Intent.EXTRA_TEXT, "Your lucky number is: " + randomNumber);
 
         startActivity(Intent.createChooser(i, "Choose a platform"));
     }
